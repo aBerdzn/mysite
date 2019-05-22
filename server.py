@@ -1,6 +1,7 @@
 from bottle import route, run, view
 from datetime import datetime as dt
 from random import random
+import os
 from horoscope import generate_prophecies
 
 @route("/")
