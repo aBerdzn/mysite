@@ -25,7 +25,7 @@ def api_test():
 
 @route('/static/<filename>')
 def send_js(filename):
-    return static_file(filename, root='static/')
+    return static_file(filename, root='static')
 
 
 if os.environ.get('APP_LOCATION') == 'heroku':
