@@ -24,7 +24,7 @@ def api_test():
     return {"test_passed": True}
 
 @route('/static/<filename>')
-def send_css(filename):
+def send_js(filename):
     return static_file(filename, root='static/')
 
 
